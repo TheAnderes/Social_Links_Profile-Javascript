@@ -1,0 +1,14 @@
+.cuerpo {
+    background-color: black;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    background-color: rgb(29, 27, 27);
+    width: auto;
+    height: 100%;
+}
