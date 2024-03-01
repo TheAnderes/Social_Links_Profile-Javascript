@@ -44,6 +44,7 @@ body {
 
 .buttons:hover {
     background: var(--Green);
+    color: black;
 }
 
 /* .buttons:active {
