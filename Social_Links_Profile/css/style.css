@@ -12,10 +12,9 @@ body {
 
 .conteiner {
     display: flex;
-    width: 100%;
-    height: 100%;
-    align-self: center;
-    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .form {
@@ -69,7 +68,7 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    height: 35px;
+    height: 40px;
 }
 
 .lugar {
@@ -79,7 +78,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     width: 100%;
-    height: 50px;
+    height: 45px;
 }
 
 .descrip {
@@ -89,5 +88,5 @@ body {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
-    height: 50px;
+    height: 40px;
 }
