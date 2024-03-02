@@ -1,0 +1,8 @@
+.form {
+    padding: 30px;
+    width: 310px;
+}
+
+.buttons:active {
+    background: linear-gradient(to bottom, var(--Green), rgb(63, 247, 2), transparent);
+}
