@@ -6,3 +6,7 @@
 .buttons:active {
     background: linear-gradient(to bottom, var(--Green), rgb(63, 247, 2), transparent);
 }
+
+.buttons1:active {
+    background: linear-gradient(to bottom, var(--Green), rgb(63, 247, 2), transparent);
+}

@@ -1,16 +1,20 @@
-console.log("Hola mundo");
-
-function suma(x, y) {
-    let resultado;
-    debugger;
-    resultado = x + y;
-    return resultado;
+function crearNodo() {
+    const contenedor = document.createElement("div");
+    contenedor.className = "form";
+    const imagen = document.createElement("div");
+    imagen.className = "imagen";
+    const img = document.createElement("img")
+    img.src = "./assets/images/avatar-jessica.jpeg";
+    imagen.appendChild(img);
+    contenedor.appendChild(imagen);
+    return contenedor
 }
 
-let botones = document.querySelector("button");
-botones.name = "Arroz";
-let facebook = document.createElement("button");
-let texto = document.createTextNode("Facebook OwO");
-facebook.appendChild(texto);
-let SelectorBotones = document.querySelector(".form")
-SelectorBotones.appendChild(facebook);
+const obtenerNodo = document.querySelector("#form");
+const botonNodo = document.querySelector(".buttons1");
+
+function AgregarNodo() {
+    obtenerNodo.appendChild(crearNodo());
+}
+
+botonNodo.addEventListener('click', AgregarNodo())
