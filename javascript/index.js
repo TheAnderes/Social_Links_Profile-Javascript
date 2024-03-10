@@ -73,4 +73,4 @@ function AgregarNodo() {
     contenedorPrincipal.appendChild(crearNodo());
 }
 
-botonNodo.addEventListener("click", AgregarNodo());
+botonNodo.addEventListener('click', AgregarNodo);
