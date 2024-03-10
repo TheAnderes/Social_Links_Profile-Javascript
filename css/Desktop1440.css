@@ -3,6 +3,12 @@
     width: 310px;
 }
 
+.conteiner {
+    flex-direction: column;
+    width: 100%;
+}
+
+
 .buttons:active {
     background: linear-gradient(to bottom, var(--Green), rgb(63, 247, 2), transparent);
 }
